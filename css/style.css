@@ -17,8 +17,14 @@
     width: 100%;
 }
 
-main .fa-solid {
+.fa-size {
     font-size: 70px;
+}
+
+.arrow {
+    border-radius: 100%;
+    padding: 10px;
+    font-size: 25px;
 }
 
 /* UTILITY */
@@ -40,6 +46,14 @@ main .fa-solid {
     color: white;
 }
 
+.violet {
+    background-color: #9792E4;
+}
+
+.bg-white {
+    background-color: white;
+}
+
 .space-between {
     display: flex;
     justify-content: space-between;
@@ -56,6 +70,10 @@ main .fa-solid {
 
 .margin-10 {
     margin: 10px;
+}
+
+.margin-40 {
+    margin: 40px 10px;
 }
 
 .border {
