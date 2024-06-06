@@ -81,6 +81,10 @@ p {
     background-color: white;
 }
 
+.bg-black {
+    background-color: #333333;
+}
+
 .orange {
     color: #FDC15F;
     font-size: 50px;
