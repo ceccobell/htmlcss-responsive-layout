@@ -15,6 +15,7 @@
 
 .col-100 {
     width: 100%;
+    position: relative;
 }
 
 .fa-size {
@@ -40,6 +41,13 @@ p {
 .number-size {
     font-size: 50px;
     font-weight: 600;
+}
+
+.quote-pos {
+    position: absolute;
+    top: 5%;
+    left: 45%;
+    font-size: 75px;
 }
 
 /* UTILITY */
@@ -71,6 +79,11 @@ p {
 
 .bg-white {
     background-color: white;
+}
+
+.orange {
+    color: #FDC15F;
+    font-size: 50px;
 }
 
 .space-between {
@@ -110,4 +123,8 @@ p {
 
 main img {
     width: 100%;
+}
+
+.label-font {
+    font-size: 25px;
 }
