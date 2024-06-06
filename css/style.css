@@ -17,10 +17,27 @@
     width: 100%;
 }
 
+main .fa-solid {
+    font-size: 70px;
+}
+
 /* UTILITY */
 
 .azure {
     background-color: #0084FD;
+}
+
+.lightazure {
+    background-color: #B5DDFF;
+    color: #0084FD;
+}
+
+.black {
+    color: black;
+}
+
+.white {
+    color: white;
 }
 
 .space-between {
@@ -29,6 +46,31 @@
     align-items: center;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .padding-20 {
     padding: 20px;
+}
+
+.margin-10 {
+    margin: 10px;
+}
+
+.border {
+    border-radius: 15px;
+}
+
+.label {
+    padding: 10px 50px;
+    border-radius: 30px;
+}
+
+.d-inline {
+    display: inline-block;
+}
+
+main img {
+    width: 100%;
 }
