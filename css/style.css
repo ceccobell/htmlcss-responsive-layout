@@ -132,3 +132,13 @@ main img {
 .label-font {
     font-size: 25px;
 }
+
+@media screen and (min-width: 568px) {
+    .col-66 {
+        width: calc(100% / 3 * 2);
+    }
+
+    .col-33 {
+        width: calc(100% / 3);
+    }
+}
