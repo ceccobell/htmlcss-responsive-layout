@@ -156,12 +156,16 @@ main img {
         width: calc(100% / 3 * 2 - 20px);
     }
 
+    .testimonial .col-66 {
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .col-33 {
         width: calc(100% / 3 - 20px);
     }
 
     .testimonial .col-100 {
-        width: 100%;
         display: flex;
     }
 
@@ -175,9 +179,41 @@ main img {
         right: 0;
         font-size: 75px;
     }
+
+    .testimonial .text-center {
+        text-align: start;
+    }
     
 }
 
 @media screen and (min-width: 991px) {
-    
+    .col-66 {
+        width: calc(100% / 3 * 2 - 20px);
+    }
+
+    .testimonial .col-66 {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .col-33 {
+        width: calc(100% / 3 - 20px);
+    }
+
+    .testimonial .col-100 {
+        display: flex;
+    }
+
+    .col-33-desk {
+        width: calc(100% / 3 - 20px);
+    }
+
+    .col-50-desk {
+        width: calc(50% - 20px);
+        position: relative;
+    }
+
+    .testimonial .text-center {
+        text-align: start;
+    }
 }
