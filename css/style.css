@@ -81,10 +81,25 @@ p {
     font-size: 18px;
 }
 
+#test-1 {
+    background-image: url(../img/testimonial1.jpg);
+}
+
+#test-2 {
+    background-image: url(../img/testimonial2.jpg);
+}
+
+#test-3 {
+    background-image: url(../img/testimonial3.jpg);
+}
+
 .testimonial-img {
-    width: 80%;
-    height: auto;
-    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50% ;
 }
 
 .about-img {
