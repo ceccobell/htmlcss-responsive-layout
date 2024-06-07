@@ -13,6 +13,39 @@
     flex-wrap: wrap;
 }
 
+.head-col-30 {
+    width: 30%;
+    display: flex;
+}
+
+.head-col-70 {
+    width: 70%;
+    display: flex;
+}
+
+.a-style {
+    text-decoration: none;   
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-none {
+    display: none;
+}
+ 
 .col-100 {
     width: 100%;
     position: relative;
@@ -22,6 +55,10 @@
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.column {
+    flex-direction: column;
 }
 
 .content {
@@ -45,8 +82,8 @@ p {
 }
 
 .testimonial-img {
-    width: 200px;
-    height: 200px;
+    width: 80%;
+    height: auto;
     border-radius: 100%;
 }
 
@@ -108,10 +145,13 @@ p {
     font-size: 50px;
 }
 
-.space-between {
-    display: flex;
-    justify-content: space-between;
+.text-right {
+    text-align: right;
+}
+
+.align-center {
     align-items: center;
+    justify-content: flex-end;
 }
 
 .text-center {
@@ -139,19 +179,25 @@ p {
     border-radius: 30px;
 }
 
+.label-2 {
+    padding: 5px;
+    border-radius: 30px;
+}
+
 .d-inline {
     display: inline-block;
 }
 
 main img {
     width: 100%;
+    height: auto;
 }
 
 .label-font {
     font-size: 25px;
 }
 
-@media screen and (min-width: 568px) and (max-width: 991px) {
+@media screen and (min-width: 568px) {
      .col-66 {
         width: calc(100% / 3 * 2 - 20px);
     }
@@ -187,23 +233,10 @@ main img {
 }
 
 @media screen and (min-width: 991px) {
-    .col-66 {
-        width: calc(100% / 3 * 2 - 20px);
+    .demo .col {
+        flex-direction: row;
     }
-
-    .testimonial .col-66 {
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .col-33 {
-        width: calc(100% / 3 - 20px);
-    }
-
-    .testimonial .col-100 {
-        display: flex;
-    }
-
+    
     .col-33-desk {
         width: calc(100% / 3 - 20px);
     }
@@ -213,7 +246,23 @@ main img {
         position: relative;
     }
 
-    .testimonial .text-center {
-        text-align: start;
+    .plan-img {
+        width: 60%;
+        height: auto;
+    }
+
+    .content-desk {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .d-block {
+        display: none !important;
+    }
+    
+    .d-none {
+        display: block;
     }
 }
