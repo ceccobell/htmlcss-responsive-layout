@@ -18,6 +18,18 @@
     position: relative;
 }
 
+.col {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .fa-size {
     font-size: 70px;
 }
@@ -38,6 +50,12 @@ p {
     border-radius: 100%;
 }
 
+.about-img {
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+
 .number-size {
     font-size: 50px;
     font-weight: 600;
@@ -46,7 +64,7 @@ p {
 .quote-pos {
     position: absolute;
     top: 5%;
-    left: 45%;
+    right: 55%;
     font-size: 75px;
 }
 
@@ -133,12 +151,33 @@ main img {
     font-size: 25px;
 }
 
-@media screen and (min-width: 568px) {
-    .col-66 {
-        width: calc(100% / 3 * 2);
+@media screen and (min-width: 568px) and (max-width: 991px) {
+     .col-66 {
+        width: calc(100% / 3 * 2 - 20px);
     }
 
     .col-33 {
-        width: calc(100% / 3);
+        width: calc(100% / 3 - 20px);
     }
+
+    .testimonial .col-100 {
+        width: 100%;
+        display: flex;
+    }
+
+    .col-50 {
+        width: calc(50% - 20px);
+    }
+
+    .quote-pos {
+        position: absolute;
+        top: 8%;
+        right: 0;
+        font-size: 75px;
+    }
+    
+}
+
+@media screen and (min-width: 991px) {
+    
 }
