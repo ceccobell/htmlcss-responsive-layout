@@ -266,6 +266,12 @@ main img {
         height: auto;
     }
 
+    .planning .col-100 {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+    }
+
     .content-desk {
         width: 80%;
         display: flex;
